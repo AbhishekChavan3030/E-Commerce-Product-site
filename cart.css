@@ -1,0 +1,62 @@
+body {
+  background-image: url("/Assets/new.jpg");
+  background-size: cover;
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cartitems {
+  display: flex;
+  
+
+  border: 2px solid rgb(24, 68, 170);
+  border-radius: 5px;
+  padding: 20px;
+  
+}
+.main {
+  width: 90%;
+  height: 70%;
+}
+#container {
+
+  width: 80%;
+  backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.1);
+
+  border: 1px solid pink;
+  border-radius: 10px;
+  padding: 20px;
+}
+#container img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+button {
+  color: white;
+  padding: 10px;
+  border: 1px solid rgb(79, 130, 248);
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: center;
+
+}
+
+#totalprice{
+  padding: 10px;
+  border: 1px solid rgb(79, 130, 248);
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  border-radius: 5px;
+  
+}
